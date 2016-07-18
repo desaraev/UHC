@@ -1,0 +1,681 @@
+/* CSS Document */
+
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	background-color: #F0F8FF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+img
+{  
+    border-style: none;
+}
+
+.topnav {
+	color: #FFF;
+	font-size:16px;
+	font-weight:bold;
+	font-family: "myriad Pro";
+	text-decoration:none;
+	margin-right:12px;
+}
+
+.menunav ul {
+	list-style:none;
+}
+	
+.menunav li {
+	float:left;
+	margin:7px;
+	display:block;
+        text-align:left;
+}
+
+
+.menunav li a {
+	display:block;
+	color:#1d4975;
+	font-size:16px;
+	font-weight:bold;
+	text-decoration:none;
+    text-align:left;
+}
+
+.menunav li a:hover   {color:red;}
+
+.center2 {
+	background: url(images/hearing_info_cntr_repeat.jpg) repeat-y top center;
+	margin:auto;
+	width:1368px;
+	height:498;
+}
+
+.manimg {
+	margin-top:12px;
+}
+
+.learnmore {
+	font-size: 12px;
+	font-family: Tahoma, Geneva, sans-serif;
+	color:#000;
+	margin:0 35px 6px 0;
+}
+
+h1 {
+	font-size:30px;
+	font-family: "HelveticaNeue LT 45 Light";
+	color:#1b4a7b;
+}
+
+p, label {
+	font-family:Tahoma;
+	font-size:14px;
+	color:#626262;
+}
+
+.foternav {
+	list-style:none;
+}
+
+.foternav li {
+	float:left;
+	padding-left:10px;
+	margin-top:20px;
+}
+
+.foternav li a {
+	font-family: "myriad Pro";
+	font-weight:bold;
+	font-size:14px;
+	color: #000;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.copyright {
+	font-family:Tahoma;
+	font-size:11px;
+	color:#626262;
+	margin-top:20px;
+}
+
+.contact_center2 {
+	background: url(images/hearing_info_cntr_repeat.jpg) repeat-y top center;
+	margin:auto;
+	width:1368px;
+
+}
+
+.contact_info{
+    margin-left: 15px;
+}
+
+.phone {
+	color:#134371;
+	font-size:14px;
+	font-family: Tahoma;
+	font-weight:bold;
+}
+
+span {
+	color:#134371;
+	font-size:12px;
+	font-family: Tahoma;
+}
+
+.faq_centr_img {
+	background: url(images/hearing_info_cntr_repeat.jpg) repeat-y top center;
+	margin:auto;
+	width:1368px;
+	height:auto;
+}
+
+h2 {
+	font-size: 20px;
+	color:#1b4a7b;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.size {
+	font-family:Tahoma;
+	font-size:12px;
+	color:#626262;
+	margin-left:15px;
+}
+
+.product_center_img {
+	background: url(images/hearing_info_cntr_repeat.jpg) repeat-y top center;
+	margin:auto;
+	width:1368px;
+	height:auto;
+}
+
+.product_center_nav li {
+	list-style: url(images/dashes.jpg);
+	margin-left:25px;
+	padding-bottom:6px;
+}
+
+
+.product_center_nav li a {
+	font-family:Tahoma;
+	font-size:12px;
+	color:#626262;
+}
+
+.hr {
+	background:url(images/hr.jpg) repeat-x top center;
+	height:2px;
+	width:960px;
+	margin:auto;
+}
+
+h3 {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight:bold;
+	font-size:18px;
+	color:#1b4a7b;
+}
+
+h4 {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight:bold;
+	font-size:14px;
+	color:#1b4a7b;
+}
+
+.p2 {
+	font-family:Tahoma;
+	font-size:12px;
+	color:#626262;
+	margin-top:40px;
+}
+
+.product_center_nav2 li {
+	list-style: url(images/dashes.jpg);
+	margin-left:25px;
+	padding-bottom:4px;
+}
+
+
+.product_center_nav2 li a {
+	font-family:Tahoma;
+	font-size:12px;
+	color:#626262;
+}
+
+.ahering {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight:bold;
+	font-size:14px;
+	color:#1b4a7b;
+}
+
+.tiny {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight:bold;
+	font-size:14px;
+	color:#1b4a7b;
+}
+
+.resound {
+	margin-top:10px;
+}
+
+h5 {
+	font-family: Tahoma, Geneva, sans-serif;
+	color:#626262;
+	font-size:18px;
+	font-weight:bold;
+}
+
+.hearing_info_cntr {
+	background: url(images/hearing_info_cntr_repeat.jpg) repeat-y top center;
+	margin:auto;
+	width:1368px;
+	height:auto;
+}
+
+h6 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:22px;
+	color:#1b4a7b;
+}
+
+/************************Contact***********************/
+
+.contact_left{
+	padding:5px 15px 0px 15px;
+	margin:15px 5px 5px 20px;
+	width:528px;
+	height:450px;
+	float:left;
+	text-align:justify;
+	}
+
+
+	
+.contact_right{
+	padding:5px 15px 10px 25px;
+	margin:15px 0 5px 0px;
+	width:240px;
+	border:#999999 solid 1px;
+	float:right;
+	text-align:justify;
+	border-left:#666666 solid 1px;
+	border-radius: 10px;
+	}
+
+/***************************/
+
+.errorMessage { 
+    color: #f00; 
+    font-weight: bold; 
+    font-size: 1.2em; 
+    margin-top: 10px;
+}
+
+.errorSummary { 
+    color: #f00; 
+    font-weight: bold; 
+    font-size: 1.2em; 
+    margin-bottom: 15px;
+}
+
+.errorSummary > ul{ 
+    margin-top: 15px;
+    list-style-position: inside;
+}
+
+.extraFieldInfo {
+    color: #737373;
+    font-family: arial;
+    font-size: 0.9em;
+    font-weight: normal;
+}
+
+.alert-box {
+    color:#555;
+    border-radius: 10px;
+    font-family: Tahoma,Geneva,Arial,sans-serif;
+    font-size: 12px;
+    padding: 10px 10px 10px 36px;
+    margin: 5px 0px;
+}
+
+.alert-box span {
+    font-weight:bold;
+    text-transform:uppercase;
+}
+
+/*.error {
+    background:#ffecec url('images/error.png') no-repeat 10px 50%;
+    border:1px solid #f5aca6;
+}*/
+.success {
+    background:#e9ffd9 url('images/success.png') no-repeat 10px 50%;
+    border:1px solid #a6ca8a;
+}
+.warning {
+    background:#fff8c4 url('images/warning.png') no-repeat 10px 50%;
+    border:1px solid #f2c779;
+}
+.notice {
+    background:#e3f7fc url('images/notice.png') no-repeat 10px 50%;
+    border:1px solid #8ed9f6;
+}
+
+
+
+
+/********************  Buttons     ********************************/
+
+div.wrapper{width:940px;margin:0 auto;padding:0 30px 36px;position:relative;}
+div#header{background:#f5f5f5;height:72px;border-bottom:1px solid #eee;margin:0;}
+div#header h4{float:left;position:absolute;top:24px;left:145px;border-left:1px solid #ddd;padding-left:14px;}
+div#header h4 small{font-size:14px;font-weight:normal;}
+div#header h4 a,div#header h4 a:visited{font-weight:normal;}
+div.page-header{padding:0 0 8px;margin:18px 0;border-bottom:1px solid #ddd;}
+div.page-header h1{padding:0;margin:0;font-size:24px;line-height:27px;letter-spacing:0;}
+.awesome,.awesome:visited{background:#222 url(alert-overlay.png) repeat-x;display:inline-block;padding:5px 10px 6px;color:#fff;text-decoration:none;-moz-border-radius:5px;-webkit-border-radius:5px;-moz-box-shadow:0 1px 3px rgba(0,0,0,0.5);-webkit-box-shadow:0 1px 3px rgba(0,0,0,0.5);text-shadow:0 -1px 1px rgba(0,0,0,0.25);border-bottom:1px solid rgba(0,0,0,0.25);position:relative;cursor:pointer;}.awesome:hover{background-color:#111;color:#fff;}
+.awesome:active{top:1px;}
+.small.awesome,.small.awesome:visited{font-size:11px;padding:3px;}
+.awesome,.awesome:visited,.medium.awesome,.medium.awesome:visited{font-size:13px;font-weight:bold;line-height:1;text-shadow:0 -1px 1px rgba(0,0,0,0.25);}
+.large.awesome,.large.awesome:visited{font-size:14px;padding:8px 14px 9px;}
+.green.awesome,.green.awesome:visited{background-color:#91bd09;}
+.green.awesome:hover{background-color:#749a02;}
+.blue.awesome,.blue.awesome:visited{background-color:#2daebf;}
+.blue.awesome:hover{background-color:#007d9a;}
+.red.awesome,.red.awesome:visited{background-color:#e33100;}
+.red.awesome:hover{background-color:#872300;}
+.magenta.awesome,.magenta.awesome:visited{background-color:#a9014b;}
+.magenta.awesome:hover{background-color:#630030;}
+.orange.awesome,.orange.awesome:visited{background-color:#ff5c00;}
+.orange.awesome:hover{background-color:#d45500;}
+.yellow.awesome,.yellow.awesome:visited{background-color:#ffb515;}
+.yellow.awesome:hover{background-color:#fc9200;}
+
+/********************  bootstrap Form     *******************************
+.bootstrap-frm {
+    margin-left:auto;
+    margin-right:auto;
+
+    max-width: 500px;
+    background: #FFF;
+    padding: 20px 30px 20px 30px;
+    font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #888;
+    text-shadow: 1px 1px 1px #FFF;
+    border:1px solid #DDD;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+.bootstrap-frm h1 {
+    font: 25px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 0px 0px 10px 40px;
+    display: block;
+    border-bottom: 1px solid #DADADA;
+    margin: -10px -30px 30px -30px;
+    color: #888;
+}
+.bootstrap-frm h1>span {
+    display: block;
+    font-size: 11px;
+}
+.bootstrap-frm label {
+    display: block;
+    margin: 0px 0px 5px;
+}
+.bootstrap-frm label>span {
+    float: left;
+    width: 20%;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px;
+    color: #333;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+.bootstrap-frm input[type="text"], .bootstrap-frm input[type="email"], .bootstrap-frm textarea, .bootstrap-frm select{
+    border: 1px solid #CCC;
+    color: #888;
+    height: 20px;
+    line-height:15px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 5px 0px 5px 5px;
+    width: 70%;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;    
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+.bootstrap-frm select {
+    background: #FFF url('down-arrow.png') no-repeat right;
+    background: #FFF url('down-arrow.png') no-repeat right;
+    appearance:none;
+    -webkit-appearance:none;
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    width: 70%;
+    height: 35px;
+    line-height:15px;
+}
+.bootstrap-frm textarea{
+    height:100px;
+    padding: 5px 0px 0px 5px;
+    width: 70%;
+}
+.bootstrap-frm .button {
+    background: #FFF;
+    border: 1px solid #CCC;
+    padding: 10px 25px 10px 25px;
+    color: #333;
+    border-radius: 4px;
+}
+.bootstrap-frm .button:hover {
+    color: #333;
+    background-color: #EBEBEB;
+    border-color: #ADADAD;
+}    
+*/
+/* Basic Grey */
+.basic-grey {
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 500px;
+    /* background: #F7F7F7; */
+    background: url(images/hearing_info_cntr_repeat.jpg) repeat-y top center;
+    padding: 25px 15px 25px 10px;
+    font: 14px Georgia, "Times New Roman", Times, serif;
+    color: #888;
+    text-shadow: 1px 1px 1px #FFF;
+    border:1px solid #E4E4E4;
+}
+.basic-grey h1 {
+    font-size: 25px;
+    padding: 0px 0px 10px 40px;
+    display: block;
+    border-bottom:1px solid #E4E4E4;
+    margin: -10px -15px 30px -10px;;
+    color: #888;
+}
+.basic-grey h1>span {
+    display: block;
+    font-size: 11px;
+}
+.basic-grey label {
+    display: block;
+    margin: 0px;
+}
+.basic-grey label>span {
+    float: left;
+    width: 20%;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px;
+    color: #888;
+}
+.basic-grey input[type="text"], .basic-grey input[type="email"], .basic-grey textarea, .basic-grey select {
+    border: 1px solid #DADADA;
+    color: #888;
+    height: 30px;
+    margin-bottom: 8px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 3px 3px 3px 5px;
+    width: 70%;
+    font-size: 14px;
+    line-height:15px;
+    box-shadow: inset 0px 1px 4px #ECECEC;
+    -moz-box-shadow: inset 0px 1px 4px #ECECEC;
+    -webkit-box-shadow: inset 0px 1px 4px #ECECEC;
+}
+.basic-grey textarea{
+    padding: 5px 3px 3px 5px;
+}
+.basic-grey select {
+    background: #FFF url('images/down-arrow.png') no-repeat right;
+    background: #FFF url('images/down-arrow.png') no-repeat right;
+    appearance:none;
+    -webkit-appearance:none;
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    width: 70%;
+    height: 35px;
+    line-height: 25px;
+}
+.basic-grey textarea{
+    height:80px;
+}
+.basic-grey .button {
+    background: none repeat scroll 0 0 #4B99AD;
+    border: medium none;
+    box-shadow: 1px 1px 1px #4c6e91;
+    color: #fff;
+    padding: 10px 30px;
+    text-shadow: 1px 1px 1px #5079a3;
+}
+.basic-grey .button:hover {
+    background: #2daebf
+}
+
+.requiredField {
+    color: #db0012;
+    font-weight: bold;
+    vertical-align: bottom;
+}
+
+/*******  Drop down menu  ***************/
+
+
+#primary_nav_wrap ul
+{
+	list-style:none;
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0;
+        z-index: 999999999999;
+}
+
+#primary_nav_wrap ul a
+{
+	display:block;
+	text-decoration:none;
+	padding:0 15px;
+}
+
+#primary_nav_wrap ul ul a
+{
+	display:block;
+	color:#333;
+	text-decoration:none;
+	font-weight:700;
+	font-size:12px;
+	line-height:32px;
+	padding:5px 15px;
+}
+
+#primary_nav_wrap ul li
+{
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
+
+/*
+#primary_nav_wrap ul ul li:hover
+{
+	background:#f6f6f6
+}
+*/
+
+#primary_nav_wrap ul ul li a:hover
+{
+	color:red;
+}
+
+#primary_nav_wrap ul ul
+{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:10px;
+        padding-top: 15px;
+        background: url(/images/top_bg.jpg) repeat-y top center;
+}
+
+#primary_nav_wrap ul ul li
+{
+	float:none;
+	width:250px
+}
+
+#primary_nav_wrap ul ul a
+{
+	line-height:120%;
+	padding: 7px 15px
+}
+
+#primary_nav_wrap ul ul a.subItem
+{
+	padding: 5px 15px 5px 35px;
+        font-weight:500;
+}
+
+#primary_nav_wrap ul ul ul
+{
+	top:0;
+	left:100%
+}
+
+#primary_nav_wrap ul li:hover > ul
+{
+	display:block
+}
+@import url(/t/1.css?apiType=css&projectid=0a81d4b6-dec8-49fc-93f4-86a2a2c380fd);
+@font-face{
+font-family:"Neue Helvetica W02_n2";
+src:url("/dv2/2/30b6ffc3-3b64-40dd-9ff8-a3a850daf535.eot?d44f19a684109620e4841670a790e8182377e3be5535bf21e9639990d30f3856dbce9f5e5e396c7c66105413893ec84179ebf96063eade1d9a79d7ffc2c5f627c087a2cd51b1b9fda6c5841958378194de9ff2af93905628fea1de2d00b78b0fc7dfd2542e5a2481a4f8ac58a50169f653d30e2ca8853fc62b1b2405ecc08e3d775a6229180c6db2018eb1a324eacad617a2ef5a3eb715b29e66b0c1279a9b3629da0ff045c059daf88edd2876e25fc8a01c5dee6a7abacc1f899968d3bfb89f14c730c36dabd6d95de62d16eb0cc5e005764e00db78e55b62ebf0c55be24a2ec0dba8d40017ce8141cb1e3586fc4bf9fa82ab7741deeafc80a0797b9146a88664d3fc5460f450574d886c96e28ff6963cb2a7f9e01b74253bd1573206edf068214b&projectId=0a81d4b6-dec8-49fc-93f4-86a2a2c380fd#iefix") format("eot");
+}
+@font-face{
+font-family:"Neue Helvetica W02";
+src:url("/dv2/2/30b6ffc3-3b64-40dd-9ff8-a3a850daf535.eot?d44f19a684109620e4841670a790e8182377e3be5535bf21e9639990d30f3856dbce9f5e5e396c7c66105413893ec84179ebf96063eade1d9a79d7ffc2c5f627c087a2cd51b1b9fda6c5841958378194de9ff2af93905628fea1de2d00b78b0fc7dfd2542e5a2481a4f8ac58a50169f653d30e2ca8853fc62b1b2405ecc08e3d775a6229180c6db2018eb1a324eacad617a2ef5a3eb715b29e66b0c1279a9b3629da0ff045c059daf88edd2876e25fc8a01c5dee6a7abacc1f899968d3bfb89f14c730c36dabd6d95de62d16eb0cc5e005764e00db78e55b62ebf0c55be24a2ec0dba8d40017ce8141cb1e3586fc4bf9fa82ab7741deeafc80a0797b9146a88664d3fc5460f450574d886c96e28ff6963cb2a7f9e01b74253bd1573206edf068214b&projectId=0a81d4b6-dec8-49fc-93f4-86a2a2c380fd#iefix");
+src:url("/dv2/2/30b6ffc3-3b64-40dd-9ff8-a3a850daf535.eot?d44f19a684109620e4841670a790e8182377e3be5535bf21e9639990d30f3856dbce9f5e5e396c7c66105413893ec84179ebf96063eade1d9a79d7ffc2c5f627c087a2cd51b1b9fda6c5841958378194de9ff2af93905628fea1de2d00b78b0fc7dfd2542e5a2481a4f8ac58a50169f653d30e2ca8853fc62b1b2405ecc08e3d775a6229180c6db2018eb1a324eacad617a2ef5a3eb715b29e66b0c1279a9b3629da0ff045c059daf88edd2876e25fc8a01c5dee6a7abacc1f899968d3bfb89f14c730c36dabd6d95de62d16eb0cc5e005764e00db78e55b62ebf0c55be24a2ec0dba8d40017ce8141cb1e3586fc4bf9fa82ab7741deeafc80a0797b9146a88664d3fc5460f450574d886c96e28ff6963cb2a7f9e01b74253bd1573206edf068214b&projectId=0a81d4b6-dec8-49fc-93f4-86a2a2c380fd#iefix") format("eot"),url("/dv2/14/96b33a5f-d3a7-4a34-b360-76867695bb83.woff2?d44f19a684109620e4841670a790e8182377e3be5535bf21e9639990d30f3856dbce9f5e5e396c7c66105413893ec84179ebf96063eade1d9a79d7ffc2c5f627c087a2cd51b1b9fda6c5841958378194de9ff2af93905628fea1de2d00b78b0fc7dfd2542e5a2481a4f8ac58a50169f653d30e2ca8853fc62b1b2405ecc08e3d775a6229180c6db2018eb1a324eacad617a2ef5a3eb715b29e66b0c1279a9b3629da0ff045c059daf88edd2876e25fc8a01c5dee6a7abacc1f899968d3bfb89f14c730c36dabd6d95de62d16eb0cc5e005764e00db78e55b62ebf0c55be24a2ec0dba8d40017ce8141cb1e3586fc4bf9fa82ab7741deeafc80a0797b9146a88664d3fc5460f450574d886c96e28ff6963cb2a7f9e01b74253bd1573206edf068214b&projectId=0a81d4b6-dec8-49fc-93f4-86a2a2c380fd") format("woff2"),url("/dv2/3/775a65da-14aa-4634-be95-6724c05fd522.woff?d44f19a684109620e4841670a790e8182377e3be5535bf21e9639990d30f3856dbce9f5e5e396c7c66105413893ec84179ebf96063eade1d9a79d7ffc2c5f627c087a2cd51b1b9fda6c5841958378194de9ff2af93905628fea1de2d00b78b0fc7dfd2542e5a2481a4f8ac58a50169f653d30e2ca8853fc62b1b2405ecc08e3d775a6229180c6db2018eb1a324eacad617a2ef5a3eb715b29e66b0c1279a9b3629da0ff045c059daf88edd2876e25fc8a01c5dee6a7abacc1f899968d3bfb89f14c730c36dabd6d95de62d16eb0cc5e005764e00db78e55b62ebf0c55be24a2ec0dba8d40017ce8141cb1e3586fc4bf9fa82ab7741deeafc80a0797b9146a88664d3fc5460f450574d886c96e28ff6963cb2a7f9e01b74253bd1573206edf068214b&projectId=0a81d4b6-dec8-49fc-93f4-86a2a2c380fd") format("woff"),url("/dv2/1/988eaaa7-5565-4f65-bb17-146b650ce9e9.ttf?d44f19a684109620e4841670a790e8182377e3be5535bf21e9639990d30f3856dbce9f5e5e396c7c66105413893ec84179ebf96063eade1d9a79d7ffc2c5f627c087a2cd51b1b9fda6c5841958378194de9ff2af93905628fea1de2d00b78b0fc7dfd2542e5a2481a4f8ac58a50169f653d30e2ca8853fc62b1b2405ecc08e3d775a6229180c6db2018eb1a324eacad617a2ef5a3eb715b29e66b0c1279a9b3629da0ff045c059daf88edd2876e25fc8a01c5dee6a7abacc1f899968d3bfb89f14c730c36dabd6d95de62d16eb0cc5e005764e00db78e55b62ebf0c55be24a2ec0dba8d40017ce8141cb1e3586fc4bf9fa82ab7741deeafc80a0797b9146a88664d3fc5460f450574d886c96e28ff6963cb2a7f9e01b74253bd1573206edf068214b&projectId=0a81d4b6-dec8-49fc-93f4-86a2a2c380fd") format("truetype"),url("/dv2/11/3503a1a6-91c3-4c42-8e66-2ea7b2b57541.svg?d44f19a684109620e4841670a790e8182377e3be5535bf21e9639990d30f3856dbce9f5e5e396c7c66105413893ec84179ebf96063eade1d9a79d7ffc2c5f627c087a2cd51b1b9fda6c5841958378194de9ff2af93905628fea1de2d00b78b0fc7dfd2542e5a2481a4f8ac58a50169f653d30e2ca8853fc62b1b2405ecc08e3d775a6229180c6db2018eb1a324eacad617a2ef5a3eb715b29e66b0c1279a9b3629da0ff045c059daf88edd2876e25fc8a01c5dee6a7abacc1f899968d3bfb89f14c730c36dabd6d95de62d16eb0cc5e005764e00db78e55b62ebf0c55be24a2ec0dba8d40017ce8141cb1e3586fc4bf9fa82ab7741deeafc80a0797b9146a88664d3fc5460f450574d886c96e28ff6963cb2a7f9e01b74253bd1573206edf068214b&projectId=0a81d4b6-dec8-49fc-93f4-86a2a2c380fd#3503a1a6-91c3-4c42-8e66-2ea7b2b57541") format("svg");
+font-weight:200;font-style:normal;
+}
+@font-face{
+font-family:"Neue Helvetica W02_n3";
+src:url("/dv2/2/88fcd49a-13c7-4d0c-86b1-ad1e258bd75d.eot?d44f19a684109620e4841670a790e8182377e3be5535bf21e9639990d30f3856dbce9f5e5e396c7c66105413893ec84179ebf96063eade1d9a79d7ffc2c5f627c087a2cd51b1b9fda6c5841958378194de9ff2af93905628fea1de2d00b78b0fc7dfd2542e5a2481a4f8ac58a50169f653d30e2ca8853fc62b1b2405ecc08e3d775a6229180c6db2018eb1a324eacad617a2ef5a3eb715b29e66b0c1279a9b3629da0ff045c059daf88edd2876e25fc8a01c5dee6a7abacc1f899968d3bfb89f14c730c36dabd6d95de62d16eb0cc5e005764e00db78e55b62ebf0c55be24a2ec0dba8d40017ce8141cb1e3586fc4bf9fa82ab7741deeafc80a0797b9146a88664d3fc5460f450574d886c96e28ff6963cb2a7f9e01b74253bd1573206edf068214b&projectId=0a81d4b6-dec8-49fc-93f4-86a2a2c380fd#iefix") format("eot");
+}
+@font-face{
+font-family:"Neue Helvetica W02";
+src:url("/dv2/2/88fcd49a-13c7-4d0c-86b1-ad1e258bd75d.eot?d44f19a684109620e4841670a790e8182377e3be5535bf21e9639990d30f3856dbce9f5e5e396c7c66105413893ec84179ebf96063eade1d9a79d7ffc2c5f627c087a2cd51b1b9fda6c5841958378194de9ff2af93905628fea1de2d00b78b0fc7dfd2542e5a2481a4f8ac58a50169f653d30e2ca8853fc62b1b2405ecc08e3d775a6229180c6db2018eb1a324eacad617a2ef5a3eb715b29e66b0c1279a9b3629da0ff045c059daf88edd2876e25fc8a01c5dee6a7abacc1f899968d3bfb89f14c730c36dabd6d95de62d16eb0cc5e005764e00db78e55b62ebf0c55be24a2ec0dba8d40017ce8141cb1e3586fc4bf9fa82ab7741deeafc80a0797b9146a88664d3fc5460f450574d886c96e28ff6963cb2a7f9e01b74253bd1573206edf068214b&projectId=0a81d4b6-dec8-49fc-93f4-86a2a2c380fd#iefix");
+src:url("/dv2/2/88fcd49a-13c7-4d0c-86b1-ad1e258bd75d.eot?d44f19a684109620e4841670a790e8182377e3be5535bf21e9639990d30f3856dbce9f5e5e396c7c66105413893ec84179ebf96063eade1d9a79d7ffc2c5f627c087a2cd51b1b9fda6c5841958378194de9ff2af93905628fea1de2d00b78b0fc7dfd2542e5a2481a4f8ac58a50169f653d30e2ca8853fc62b1b2405ecc08e3d775a6229180c6db2018eb1a324eacad617a2ef5a3eb715b29e66b0c1279a9b3629da0ff045c059daf88edd2876e25fc8a01c5dee6a7abacc1f899968d3bfb89f14c730c36dabd6d95de62d16eb0cc5e005764e00db78e55b62ebf0c55be24a2ec0dba8d40017ce8141cb1e3586fc4bf9fa82ab7741deeafc80a0797b9146a88664d3fc5460f450574d886c96e28ff6963cb2a7f9e01b74253bd1573206edf068214b&projectId=0a81d4b6-dec8-49fc-93f4-86a2a2c380fd#iefix") format("eot"),url("/dv2/14/7732d6de-bd05-4c17-ae43-99e9a02edf31.woff2?d44f19a684109620e4841670a790e8182377e3be5535bf21e9639990d30f3856dbce9f5e5e396c7c66105413893ec84179ebf96063eade1d9a79d7ffc2c5f627c087a2cd51b1b9fda6c5841958378194de9ff2af93905628fea1de2d00b78b0fc7dfd2542e5a2481a4f8ac58a50169f653d30e2ca8853fc62b1b2405ecc08e3d775a6229180c6db2018eb1a324eacad617a2ef5a3eb715b29e66b0c1279a9b3629da0ff045c059daf88edd2876e25fc8a01c5dee6a7abacc1f899968d3bfb89f14c730c36dabd6d95de62d16eb0cc5e005764e00db78e55b62ebf0c55be24a2ec0dba8d40017ce8141cb1e3586fc4bf9fa82ab7741deeafc80a0797b9146a88664d3fc5460f450574d886c96e28ff6963cb2a7f9e01b74253bd1573206edf068214b&projectId=0a81d4b6-dec8-49fc-93f4-86a2a2c380fd") format("woff2"),url("/dv2/3/9a2e4855-380f-477f-950e-d98e8db54eac.woff?d44f19a684109620e4841670a790e8182377e3be5535bf21e9639990d30f3856dbce9f5e5e396c7c66105413893ec84179ebf96063eade1d9a79d7ffc2c5f627c087a2cd51b1b9fda6c5841958378194de9ff2af93905628fea1de2d00b78b0fc7dfd2542e5a2481a4f8ac58a50169f653d30e2ca8853fc62b1b2405ecc08e3d775a6229180c6db2018eb1a324eacad617a2ef5a3eb715b29e66b0c1279a9b3629da0ff045c059daf88edd2876e25fc8a01c5dee6a7abacc1f899968d3bfb89f14c730c36dabd6d95de62d16eb0cc5e005764e00db78e55b62ebf0c55be24a2ec0dba8d40017ce8141cb1e3586fc4bf9fa82ab7741deeafc80a0797b9146a88664d3fc5460f450574d886c96e28ff6963cb2a7f9e01b74253bd1573206edf068214b&projectId=0a81d4b6-dec8-49fc-93f4-86a2a2c380fd") format("woff"),url("/dv2/1/fa82d0ee-4fbd-4cc9-bf9f-226ad1fcbae2.ttf?d44f19a684109620e4841670a790e8182377e3be5535bf21e9639990d30f3856dbce9f5e5e396c7c66105413893ec84179ebf96063eade1d9a79d7ffc2c5f627c087a2cd51b1b9fda6c5841958378194de9ff2af93905628fea1de2d00b78b0fc7dfd2542e5a2481a4f8ac58a50169f653d30e2ca8853fc62b1b2405ecc08e3d775a6229180c6db2018eb1a324eacad617a2ef5a3eb715b29e66b0c1279a9b3629da0ff045c059daf88edd2876e25fc8a01c5dee6a7abacc1f899968d3bfb89f14c730c36dabd6d95de62d16eb0cc5e005764e00db78e55b62ebf0c55be24a2ec0dba8d40017ce8141cb1e3586fc4bf9fa82ab7741deeafc80a0797b9146a88664d3fc5460f450574d886c96e28ff6963cb2a7f9e01b74253bd1573206edf068214b&projectId=0a81d4b6-dec8-49fc-93f4-86a2a2c380fd") format("truetype"),url("/dv2/11/48d599a6-92b5-4d43-a4ac-8959f6971853.svg?d44f19a684109620e4841670a790e8182377e3be5535bf21e9639990d30f3856dbce9f5e5e396c7c66105413893ec84179ebf96063eade1d9a79d7ffc2c5f627c087a2cd51b1b9fda6c5841958378194de9ff2af93905628fea1de2d00b78b0fc7dfd2542e5a2481a4f8ac58a50169f653d30e2ca8853fc62b1b2405ecc08e3d775a6229180c6db2018eb1a324eacad617a2ef5a3eb715b29e66b0c1279a9b3629da0ff045c059daf88edd2876e25fc8a01c5dee6a7abacc1f899968d3bfb89f14c730c36dabd6d95de62d16eb0cc5e005764e00db78e55b62ebf0c55be24a2ec0dba8d40017ce8141cb1e3586fc4bf9fa82ab7741deeafc80a0797b9146a88664d3fc5460f450574d886c96e28ff6963cb2a7f9e01b74253bd1573206edf068214b&projectId=0a81d4b6-dec8-49fc-93f4-86a2a2c380fd#48d599a6-92b5-4d43-a4ac-8959f6971853") format("svg");
+font-weight:300;font-style:normal;
+}
+@font-face{
+font-family:"Neue Helvetica W02_n4";
+src:url("/dv2/2/0b3a3fca-0fad-402b-bd38-fdcbad1ef776.eot?d44f19a684109620e4841670a790e8182377e3be5535bf21e9639990d30f3856dbce9f5e5e396c7c66105413893ec84179ebf96063eade1d9a79d7ffc2c5f627c087a2cd51b1b9fda6c5841958378194de9ff2af93905628fea1de2d00b78b0fc7dfd2542e5a2481a4f8ac58a50169f653d30e2ca8853fc62b1b2405ecc08e3d775a6229180c6db2018eb1a324eacad617a2ef5a3eb715b29e66b0c1279a9b3629da0ff045c059daf88edd2876e25fc8a01c5dee6a7abacc1f899968d3bfb89f14c730c36dabd6d95de62d16eb0cc5e005764e00db78e55b62ebf0c55be24a2ec0dba8d40017ce8141cb1e3586fc4bf9fa82ab7741deeafc80a0797b9146a88664d3fc5460f450574d886c96e28ff6963cb2a7f9e01b74253bd1573206edf068214b&projectId=0a81d4b6-dec8-49fc-93f4-86a2a2c380fd#iefix") format("eot");
+}
+@font-face{
+font-family:"Neue Helvetica W02";
+src:url("/dv2/2/0b3a3fca-0fad-402b-bd38-fdcbad1ef776.eot?d44f19a684109620e4841670a790e8182377e3be5535bf21e9639990d30f3856dbce9f5e5e396c7c66105413893ec84179ebf96063eade1d9a79d7ffc2c5f627c087a2cd51b1b9fda6c5841958378194de9ff2af93905628fea1de2d00b78b0fc7dfd2542e5a2481a4f8ac58a50169f653d30e2ca8853fc62b1b2405ecc08e3d775a6229180c6db2018eb1a324eacad617a2ef5a3eb715b29e66b0c1279a9b3629da0ff045c059daf88edd2876e25fc8a01c5dee6a7abacc1f899968d3bfb89f14c730c36dabd6d95de62d16eb0cc5e005764e00db78e55b62ebf0c55be24a2ec0dba8d40017ce8141cb1e3586fc4bf9fa82ab7741deeafc80a0797b9146a88664d3fc5460f450574d886c96e28ff6963cb2a7f9e01b74253bd1573206edf068214b&projectId=0a81d4b6-dec8-49fc-93f4-86a2a2c380fd#iefix");
+src:url("/dv2/2/0b3a3fca-0fad-402b-bd38-fdcbad1ef776.eot?d44f19a684109620e4841670a790e8182377e3be5535bf21e9639990d30f3856dbce9f5e5e396c7c66105413893ec84179ebf96063eade1d9a79d7ffc2c5f627c087a2cd51b1b9fda6c5841958378194de9ff2af93905628fea1de2d00b78b0fc7dfd2542e5a2481a4f8ac58a50169f653d30e2ca8853fc62b1b2405ecc08e3d775a6229180c6db2018eb1a324eacad617a2ef5a3eb715b29e66b0c1279a9b3629da0ff045c059daf88edd2876e25fc8a01c5dee6a7abacc1f899968d3bfb89f14c730c36dabd6d95de62d16eb0cc5e005764e00db78e55b62ebf0c55be24a2ec0dba8d40017ce8141cb1e3586fc4bf9fa82ab7741deeafc80a0797b9146a88664d3fc5460f450574d886c96e28ff6963cb2a7f9e01b74253bd1573206edf068214b&projectId=0a81d4b6-dec8-49fc-93f4-86a2a2c380fd#iefix") format("eot"),url("/dv2/14/b4cd926c-1a31-4785-b261-1db1a68c521e.woff2?d44f19a684109620e4841670a790e8182377e3be5535bf21e9639990d30f3856dbce9f5e5e396c7c66105413893ec84179ebf96063eade1d9a79d7ffc2c5f627c087a2cd51b1b9fda6c5841958378194de9ff2af93905628fea1de2d00b78b0fc7dfd2542e5a2481a4f8ac58a50169f653d30e2ca8853fc62b1b2405ecc08e3d775a6229180c6db2018eb1a324eacad617a2ef5a3eb715b29e66b0c1279a9b3629da0ff045c059daf88edd2876e25fc8a01c5dee6a7abacc1f899968d3bfb89f14c730c36dabd6d95de62d16eb0cc5e005764e00db78e55b62ebf0c55be24a2ec0dba8d40017ce8141cb1e3586fc4bf9fa82ab7741deeafc80a0797b9146a88664d3fc5460f450574d886c96e28ff6963cb2a7f9e01b74253bd1573206edf068214b&projectId=0a81d4b6-dec8-49fc-93f4-86a2a2c380fd") format("woff2"),url("/dv2/3/d5af76d8-a90b-4527-b3a3-182207cc3250.woff?d44f19a684109620e4841670a790e8182377e3be5535bf21e9639990d30f3856dbce9f5e5e396c7c66105413893ec84179ebf96063eade1d9a79d7ffc2c5f627c087a2cd51b1b9fda6c5841958378194de9ff2af93905628fea1de2d00b78b0fc7dfd2542e5a2481a4f8ac58a50169f653d30e2ca8853fc62b1b2405ecc08e3d775a6229180c6db2018eb1a324eacad617a2ef5a3eb715b29e66b0c1279a9b3629da0ff045c059daf88edd2876e25fc8a01c5dee6a7abacc1f899968d3bfb89f14c730c36dabd6d95de62d16eb0cc5e005764e00db78e55b62ebf0c55be24a2ec0dba8d40017ce8141cb1e3586fc4bf9fa82ab7741deeafc80a0797b9146a88664d3fc5460f450574d886c96e28ff6963cb2a7f9e01b74253bd1573206edf068214b&projectId=0a81d4b6-dec8-49fc-93f4-86a2a2c380fd") format("woff"),url("/dv2/1/1d238354-d156-4dde-89ea-4770ef04b9f9.ttf?d44f19a684109620e4841670a790e8182377e3be5535bf21e9639990d30f3856dbce9f5e5e396c7c66105413893ec84179ebf96063eade1d9a79d7ffc2c5f627c087a2cd51b1b9fda6c5841958378194de9ff2af93905628fea1de2d00b78b0fc7dfd2542e5a2481a4f8ac58a50169f653d30e2ca8853fc62b1b2405ecc08e3d775a6229180c6db2018eb1a324eacad617a2ef5a3eb715b29e66b0c1279a9b3629da0ff045c059daf88edd2876e25fc8a01c5dee6a7abacc1f899968d3bfb89f14c730c36dabd6d95de62d16eb0cc5e005764e00db78e55b62ebf0c55be24a2ec0dba8d40017ce8141cb1e3586fc4bf9fa82ab7741deeafc80a0797b9146a88664d3fc5460f450574d886c96e28ff6963cb2a7f9e01b74253bd1573206edf068214b&projectId=0a81d4b6-dec8-49fc-93f4-86a2a2c380fd") format("truetype"),url("/dv2/11/b68875cb-14a9-472e-8177-0247605124d7.svg?d44f19a684109620e4841670a790e8182377e3be5535bf21e9639990d30f3856dbce9f5e5e396c7c66105413893ec84179ebf96063eade1d9a79d7ffc2c5f627c087a2cd51b1b9fda6c5841958378194de9ff2af93905628fea1de2d00b78b0fc7dfd2542e5a2481a4f8ac58a50169f653d30e2ca8853fc62b1b2405ecc08e3d775a6229180c6db2018eb1a324eacad617a2ef5a3eb715b29e66b0c1279a9b3629da0ff045c059daf88edd2876e25fc8a01c5dee6a7abacc1f899968d3bfb89f14c730c36dabd6d95de62d16eb0cc5e005764e00db78e55b62ebf0c55be24a2ec0dba8d40017ce8141cb1e3586fc4bf9fa82ab7741deeafc80a0797b9146a88664d3fc5460f450574d886c96e28ff6963cb2a7f9e01b74253bd1573206edf068214b&projectId=0a81d4b6-dec8-49fc-93f4-86a2a2c380fd#b68875cb-14a9-472e-8177-0247605124d7") format("svg");
+font-weight:400;font-style:normal;
+}
+@font-face{
+font-family:"Neue Helvetica W02_n6";
+src:url("/dv2/2/db853e0e-929b-4272-b420-c946c954cf3a.eot?d44f19a684109620e4841670a790e8182377e3be5535bf21e9639990d30f3856dbce9f5e5e396c7c66105413893ec84179ebf96063eade1d9a79d7ffc2c5f627c087a2cd51b1b9fda6c5841958378194de9ff2af93905628fea1de2d00b78b0fc7dfd2542e5a2481a4f8ac58a50169f653d30e2ca8853fc62b1b2405ecc08e3d775a6229180c6db2018eb1a324eacad617a2ef5a3eb715b29e66b0c1279a9b3629da0ff045c059daf88edd2876e25fc8a01c5dee6a7abacc1f899968d3bfb89f14c730c36dabd6d95de62d16eb0cc5e005764e00db78e55b62ebf0c55be24a2ec0dba8d40017ce8141cb1e3586fc4bf9fa82ab7741deeafc80a0797b9146a88664d3fc5460f450574d886c96e28ff6963cb2a7f9e01b74253bd1573206edf068214b&projectId=0a81d4b6-dec8-49fc-93f4-86a2a2c380fd#iefix") format("eot");
+}
+@font-face{
+font-family:"Neue Helvetica W02";
+src:url("/dv2/2/db853e0e-929b-4272-b420-c946c954cf3a.eot?d44f19a684109620e4841670a790e8182377e3be5535bf21e9639990d30f3856dbce9f5e5e396c7c66105413893ec84179ebf96063eade1d9a79d7ffc2c5f627c087a2cd51b1b9fda6c5841958378194de9ff2af93905628fea1de2d00b78b0fc7dfd2542e5a2481a4f8ac58a50169f653d30e2ca8853fc62b1b2405ecc08e3d775a6229180c6db2018eb1a324eacad617a2ef5a3eb715b29e66b0c1279a9b3629da0ff045c059daf88edd2876e25fc8a01c5dee6a7abacc1f899968d3bfb89f14c730c36dabd6d95de62d16eb0cc5e005764e00db78e55b62ebf0c55be24a2ec0dba8d40017ce8141cb1e3586fc4bf9fa82ab7741deeafc80a0797b9146a88664d3fc5460f450574d886c96e28ff6963cb2a7f9e01b74253bd1573206edf068214b&projectId=0a81d4b6-dec8-49fc-93f4-86a2a2c380fd#iefix");
+src:url("/dv2/2/db853e0e-929b-4272-b420-c946c954cf3a.eot?d44f19a684109620e4841670a790e8182377e3be5535bf21e9639990d30f3856dbce9f5e5e396c7c66105413893ec84179ebf96063eade1d9a79d7ffc2c5f627c087a2cd51b1b9fda6c5841958378194de9ff2af93905628fea1de2d00b78b0fc7dfd2542e5a2481a4f8ac58a50169f653d30e2ca8853fc62b1b2405ecc08e3d775a6229180c6db2018eb1a324eacad617a2ef5a3eb715b29e66b0c1279a9b3629da0ff045c059daf88edd2876e25fc8a01c5dee6a7abacc1f899968d3bfb89f14c730c36dabd6d95de62d16eb0cc5e005764e00db78e55b62ebf0c55be24a2ec0dba8d40017ce8141cb1e3586fc4bf9fa82ab7741deeafc80a0797b9146a88664d3fc5460f450574d886c96e28ff6963cb2a7f9e01b74253bd1573206edf068214b&projectId=0a81d4b6-dec8-49fc-93f4-86a2a2c380fd#iefix") format("eot"),url("/dv2/14/2a5cf81d-ffbe-4c76-8982-270592fb36b0.woff2?d44f19a684109620e4841670a790e8182377e3be5535bf21e9639990d30f3856dbce9f5e5e396c7c66105413893ec84179ebf96063eade1d9a79d7ffc2c5f627c087a2cd51b1b9fda6c5841958378194de9ff2af93905628fea1de2d00b78b0fc7dfd2542e5a2481a4f8ac58a50169f653d30e2ca8853fc62b1b2405ecc08e3d775a6229180c6db2018eb1a324eacad617a2ef5a3eb715b29e66b0c1279a9b3629da0ff045c059daf88edd2876e25fc8a01c5dee6a7abacc1f899968d3bfb89f14c730c36dabd6d95de62d16eb0cc5e005764e00db78e55b62ebf0c55be24a2ec0dba8d40017ce8141cb1e3586fc4bf9fa82ab7741deeafc80a0797b9146a88664d3fc5460f450574d886c96e28ff6963cb2a7f9e01b74253bd1573206edf068214b&projectId=0a81d4b6-dec8-49fc-93f4-86a2a2c380fd") format("woff2"),url("/dv2/3/4a9c62ab-b359-4081-8383-a0d1cdebd111.woff?d44f19a684109620e4841670a790e8182377e3be5535bf21e9639990d30f3856dbce9f5e5e396c7c66105413893ec84179ebf96063eade1d9a79d7ffc2c5f627c087a2cd51b1b9fda6c5841958378194de9ff2af93905628fea1de2d00b78b0fc7dfd2542e5a2481a4f8ac58a50169f653d30e2ca8853fc62b1b2405ecc08e3d775a6229180c6db2018eb1a324eacad617a2ef5a3eb715b29e66b0c1279a9b3629da0ff045c059daf88edd2876e25fc8a01c5dee6a7abacc1f899968d3bfb89f14c730c36dabd6d95de62d16eb0cc5e005764e00db78e55b62ebf0c55be24a2ec0dba8d40017ce8141cb1e3586fc4bf9fa82ab7741deeafc80a0797b9146a88664d3fc5460f450574d886c96e28ff6963cb2a7f9e01b74253bd1573206edf068214b&projectId=0a81d4b6-dec8-49fc-93f4-86a2a2c380fd") format("woff"),url("/dv2/1/db5f9ba6-05a4-433a-9461-0a6f257a0c3a.ttf?d44f19a684109620e4841670a790e8182377e3be5535bf21e9639990d30f3856dbce9f5e5e396c7c66105413893ec84179ebf96063eade1d9a79d7ffc2c5f627c087a2cd51b1b9fda6c5841958378194de9ff2af93905628fea1de2d00b78b0fc7dfd2542e5a2481a4f8ac58a50169f653d30e2ca8853fc62b1b2405ecc08e3d775a6229180c6db2018eb1a324eacad617a2ef5a3eb715b29e66b0c1279a9b3629da0ff045c059daf88edd2876e25fc8a01c5dee6a7abacc1f899968d3bfb89f14c730c36dabd6d95de62d16eb0cc5e005764e00db78e55b62ebf0c55be24a2ec0dba8d40017ce8141cb1e3586fc4bf9fa82ab7741deeafc80a0797b9146a88664d3fc5460f450574d886c96e28ff6963cb2a7f9e01b74253bd1573206edf068214b&projectId=0a81d4b6-dec8-49fc-93f4-86a2a2c380fd") format("truetype"),url("/dv2/11/25e09910-ffc3-4fc4-b0d1-db9a95dface8.svg?d44f19a684109620e4841670a790e8182377e3be5535bf21e9639990d30f3856dbce9f5e5e396c7c66105413893ec84179ebf96063eade1d9a79d7ffc2c5f627c087a2cd51b1b9fda6c5841958378194de9ff2af93905628fea1de2d00b78b0fc7dfd2542e5a2481a4f8ac58a50169f653d30e2ca8853fc62b1b2405ecc08e3d775a6229180c6db2018eb1a324eacad617a2ef5a3eb715b29e66b0c1279a9b3629da0ff045c059daf88edd2876e25fc8a01c5dee6a7abacc1f899968d3bfb89f14c730c36dabd6d95de62d16eb0cc5e005764e00db78e55b62ebf0c55be24a2ec0dba8d40017ce8141cb1e3586fc4bf9fa82ab7741deeafc80a0797b9146a88664d3fc5460f450574d886c96e28ff6963cb2a7f9e01b74253bd1573206edf068214b&projectId=0a81d4b6-dec8-49fc-93f4-86a2a2c380fd#25e09910-ffc3-4fc4-b0d1-db9a95dface8") format("svg");
+font-weight:600;font-style:normal;
+}
+200{font-family:"Neue Helvetica W02_n2";}
+300{font-family:"Neue Helvetica W02_n3";}
+400{font-family:"Neue Helvetica W02_n4";}
+700{font-family:"Neue Helvetica W02_n6";}
+@media all and (min-width: 0px) {
+200{font-family:"Neue Helvetica W02";font-weight:200;font-style:normal;}
+300{font-family:"Neue Helvetica W02";font-weight:300;font-style:normal;}
+400{font-family:"Neue Helvetica W02";font-weight:400;font-style:normal;}
+700{font-family:"Neue Helvetica W02";font-weight:600;font-style:normal;}
+}
